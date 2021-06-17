@@ -33,7 +33,7 @@ QOBJS = qemu.o qmain.o qvgastr.o
 
 .PHONY : build clean all link bin copy qimg clean_after docker docker-image
 
-all: clean build link bin copy qimg clean_after
+all: clean build link bin qimg clean_after
 
 clean:
 	$(RM) -f *.o *.bin *.img *.elf *.map
