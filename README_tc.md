@@ -1,6 +1,11 @@
 # **APTX4869 OS**
 
-Language: [简体汉字](./README_sc.md) | 正體漢字 | [English](./README.md)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=tony-aptx4869.aptx4869os)
+[![build status](https://img.shields.io/github/workflow/status/tony-aptx4869/aptx4869os/Build)](https://github.com/tony-aptx4869/aptx4869os/actions)
+[![APTX4869 OS version](https://img.shields.io/badge/APTX4869%20OS-0.0.1-blue)](https://github.com/tony-aptx4869/aptx4869os)
+
+
+### Language: [简体汉字](./README_sc.md) | 正體漢字 | [English](./README.md)
 
 **//TODO: 請等待更新。**
 
