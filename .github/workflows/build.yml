@@ -29,6 +29,7 @@ jobs:
       - name: install packages
         run: |
           echo Install several packages.
+          sudo apt update
           sudo apt -y install build-essential nasm
           echo Packages' installation done.
 
