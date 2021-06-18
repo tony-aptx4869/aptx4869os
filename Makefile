@@ -48,8 +48,8 @@ bin: $(BIN)
 $(BIN): $(ELF)
 	$(OBJCOPY) $(OJCYFLAGS) $< $@
 
-copy: $(TARGET)
-	sudo $(CP) $< /boot
+copy:
+	sudo $(CP) $(TARGET) /boot
 
 qimg: $(QTARGET)
 $(QTARGET): $(QOBJS)
