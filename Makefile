@@ -21,7 +21,7 @@ CFLAGS		= -c -Os -std=c99 -m32 -Wall -Wshadow -W -Wconversion -Wno-sign-conversi
 LDFLAGS		= -s -static -T grub.lds -n -Map grub.map
 OJCYFLAGS	= -S -O binary
 
-OBJS = grub.o main.o vgastr.o
+OBJS = entry.o main.o vgastr.o
 ELF = grub.elf
 BIN = $(TARGET)
 
@@ -29,7 +29,7 @@ QASMFLAGS   = -f elf32
 QCFLAGS     = -c -Os -std=c99 -m32 -Wall -Wextra -Werror -fno-pie -fno-stack-protector -fomit-frame-pointer -fno-builtin -fno-common -ffreestanding
 QLDFLAGS    = -s -static -T qemu.ld -n -m elf_i386
 
-QOBJS = qemu.o qmain.o qvgastr.o
+QOBJS = qentry.o qmain.o qvgastr.o
 
 .PHONY : build clean all link bin copy qimg clean_after docker docker-image
 
@@ -58,14 +58,13 @@ $(QTARGET): $(QOBJS)
 clean_after:
 	$(RM) -f *.o *.elf *.map
 
-grub.o : grub.asm
+%.o : %.asm
 	$(ASM) $(ASMBFLAGS) -o $@ $<
 %.o : %.c
 	$(CC) $(CFLAGS) -o $@ $<
 
-qemu.o : qemu.asm
+q%.o : q%.asm
 	$(ASM) $(QASMFLAGS) -o $@ $<
-qmain.o : main.c
+q%.o : %.c
 	$(CC) $(QCFLAGS) -o $@ $<
-qvgastr.o : vgastr.c
-	$(CC) $(QCFLAGS) -o $@ $<
+

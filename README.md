@@ -1,6 +1,6 @@
 # **APTX4869 OS**
 
-![](http://img.tonychang1069.top/picgo/20210617221413.png?TalkisCheap,ShowMeYourDick)
+![Main picture](http://img.tonychang1069.top/picgo/20210617221413.png?TalkisCheap,ShowMeYourDick)
 
 ## What is **APTX4869 OS**?
 
