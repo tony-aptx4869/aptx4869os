@@ -1,7 +1,7 @@
 # **APTX4869 OS**
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tony-aptx4869.aptx4869os)
-[![build status](https://img.shields.io/github/workflow/status/tony-aptx4869/aptx4869os/Build)](https://github.com/tony-aptx4869/aptx4869os/actions)
+[![Build](https://github.com/tony-aptx4869/aptx4869os/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/tony-aptx4869/aptx4869os/actions/)
 [![APTX4869 OS version](https://img.shields.io/badge/APTX4869%20OS-0.0.1-blue)](https://github.com/tony-aptx4869/aptx4869os)
 
 
