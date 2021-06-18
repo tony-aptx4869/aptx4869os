@@ -1,6 +1,8 @@
 # **APTX4869 OS**
 
-Language: [简体汉字](./README_sc.md) | [正體漢字](./README_tc.md) | English
+Language: [简体汉字](./README_sc.md) | 正體漢字 | [English](./README.md)
+
+**//TODO: 請等待更新。**
 
 ![Main picture](http://img.tonychang1069.top/picgo/20210617221413.png?TalkisCheap,ShowMeYourDick)
 
