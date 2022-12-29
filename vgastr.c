@@ -1,4 +1,4 @@
-//tonychang1069 @ 2021.06.17
+//tonychang1069 @ 2022-12-30
 
 void _strwrite(char* string)
 {

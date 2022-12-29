@@ -1,4 +1,4 @@
-/* tonychang1069 @ 2021.06.17 */
+/* tonychang1069 @ 2022-12-30 */
 /* Credits: https://github.com/tanmayv25/x86-bootloader, http://3zanders.co.uk/2017/10/13/writing-a-bootloader */
 
 ENTRY(entry)

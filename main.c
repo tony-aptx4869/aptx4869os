@@ -1,8 +1,12 @@
-//tonychang1069 @ 2021.06.17
+//tonychang1069 @ 2022-12-30
 #include "vgastr.h"
-void main()
+int main()
 {
-    printf("Welcome to APTX4869 OS!                                                                                                                                         Build Date & Time: June 17, 2021 20:47:00 CST (GMT+8)                                                                                                           Copyright (c) 2021 Tony Chang aptx4869.tv All Rights Reserved. ");
+    printf("Welcome to APTX4869 OS!\n");
+    printf("\n");
+    printf("Build Date & Time: December 30, 2022 04:45:00 CST (GMT+8)\n");
+    printf("\n");
+    printf("Copyright (c) 2022 Tony Chang aptx4869.tv All Rights Reserved.\n");
     //printf("Welcome to APTX4869 OS!");
-    return;
+    return 0;
 }
